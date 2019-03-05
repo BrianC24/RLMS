@@ -1,0 +1,33 @@
+.nav {
+    background-color: #252525;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: #D64646;
+    text-decoration: none;
+    color: white;
+}
+
+.item {
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 100px;
+    display: flex; 
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-nav {
+    height: 40px;
+}
+
+.logo-item {
+    margin: 10px 20px 0 20px;
+}
